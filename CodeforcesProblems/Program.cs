@@ -1,4 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-using CodeforcesProblems.Difficulty800;
+﻿using CodeforcesProblems.Contests;
 
-Problem2033A.Execute();
+Contest2032.ProblemA();

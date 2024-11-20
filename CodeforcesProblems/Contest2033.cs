@@ -1,15 +1,13 @@
-using System;
+namespace CodeforcesProblems.Contests;
 
-namespace CodeforcesProblems.Difficulty800;
-
-internal sealed class Problem2033A
+internal sealed class Contest2033
 {
     private static string winKosuke = "Kosuke";
     private static string winSakurako = "Sakurako";
     internal static string Name = "Task 2033A (Sakurako And Kosuke)";
-    // # задачи 2033A
+
     // https://codeforces.com/problemset/problem/2033/A
-    internal static void Execute()
+    internal static void ProblemA()
     {
         string winner = "";
         int numOfAttempt = int.Parse(Console.ReadLine());
